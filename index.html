@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple counter</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-slate-800 flex justify-center items-center font-sans h-screen">
+    <div
+        class="bg-slate-600 pl-20 pr-20 text-white rounded-lg border-2 border-slate-400 flex flex-col justify-center items-center">
+        <h1 class="font-bold text-2xl underline decoration-yellow-400">Counter</h1>
+        <div class="flex gap-2">
+            <div id="count-show" class="text-9xl font-bold">0</div>
+            <div class="flex flex-col justify-around">
+                <button id="plus"
+                    class="border-2 p-1 rounded-md w-7 h-7 flex justify-center items-center font-bold hover:bg-yellow-400 hover:border-yellow-400"
+                    onclick="countUp()">+</button>
+                <button id="minus"
+                    class="border-2 p-1 rounded-md w-7 h-7 flex justify-center items-center font-bold hover:bg-yellow-400 hover:border-yellow-400"
+                    onclick="countDown()">-</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
