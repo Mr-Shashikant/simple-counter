@@ -3,14 +3,24 @@ const plusBtn = document.getElementById("plus");
 const minusBtn = document.getElementById("minus");
 
 let count = 0;
-countOutput.innerHTML = count;
+
+const updateVal = () => {
+  countOutput.innerHTML = count;
+};
+
+updateVal();
 
 const countUp = () => {
-    count++;
-    countOutput.innerHTML = count;
-}
+  count++;
+  updateVal();
+};
 
 const countDown = () => {
-    count--;
-    countOutput.innerHTML = count;
-}
+  count--;
+  updateVal();
+};
+
+const reset = () => {
+  count = 0;
+  updateVal();
+};
