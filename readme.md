@@ -51,7 +51,3 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-*Note: This README is based on the structure and files present in the repository as of February 11, 2025.*
